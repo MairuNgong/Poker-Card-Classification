@@ -13,7 +13,7 @@
 - **`reshape.py`**
   ใช้สำหรับทำ Data Augmentation (การเพิ่มภาพข้อมูล) โดยการอ่านภาพที่แยกไว้ แล้วนำมาแปลงด้วยวิธีต่างๆ เช่น Resize, ขยับภาพ (Translate), สุ่มหมุน (Rotate), และเติม Noise เช่น Salt and Pepper เพื่อให้โมเดลมีความทนทานและแม่นยำขึ้นแล้วบันทึกใน `augmented_poker_data/`
 
-* Efficient Net
+### Efficient Net
 
 - **`PepareRankData.py`**
   สคริปต์สำหรับจัดการและแบ่งข้อมูล (Split) เพื่อใช้ในการเทรนโมเดลจำแนกเฉพาะ **หน้าไพ่ (Rank)** โดยแบ่งข้อมูลออกเป็นชุด Train, Validation และ Test
@@ -27,7 +27,7 @@
 - **`eval.py` / `eval_best.py`**
   สคริปต์สำหรับประเมินประสิทธิภาพของโมเดล (Evaluation) เช่น การคำนวณค่า Accuracy, F1-Score, และการสร้าง Confusion Matrix จากโมเดลที่ถูกเทรนเสร็จสมบูรณ์แล้ว
 
-* YOLO
+### YOLO
 
 - **`yolo.ipynb`**
   ไฟล์ Jupyter Notebook ที่เป็นส่วนหลักในการรันโค้ดฝึกสอน (Training), การตรวจสอบความถูกต้อง (Validation), และการประเมินผลโจทย์จำแนกภาพด้วยโมเดลสถาปัตยกรรมตระกูล YOLO (You Only Look Once)
