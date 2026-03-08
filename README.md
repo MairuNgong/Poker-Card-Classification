@@ -31,3 +31,7 @@
 
 - **`yolo.ipynb`**
   ไฟล์ Jupyter Notebook ที่เป็นส่วนหลักในการรันโค้ดฝึกสอน (Training), การตรวจสอบความถูกต้อง (Validation), และการประเมินผลโจทย์จำแนกภาพด้วยโมเดลสถาปัตยกรรมตระกูล YOLO (You Only Look Once)
+
+## Raw DATASET :
+
+- https://drive.google.com/file/d/1FmRCyfgu0ixrPpFwiaFEFkoREIrH_i8N/view?usp=sharing
